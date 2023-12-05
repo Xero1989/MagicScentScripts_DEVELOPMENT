@@ -1,0 +1,41 @@
+.product_cat-scent-marketing h4,
+.product_cat-scent-marketing h5 {
+   height: 4em !important;
+}   
+
+.product_cat-scent-marketing .jdgm-widget {
+   display: block !important;
+   height: 1em;
+}
+
+.product_cat-scent-marketing .inspired_by_text {
+   height: 3em !important;
+}
+
+ .product_cat-scent-marketing .top_notes_text {
+   height: 4em;      
+}
+
+
+
+
+.product_cat-best-sellers-diffusers h5{
+   height: 5em !important;
+}
+
+/* 1 columns product */
+@media screen and (max-width: 680px) {
+   .product_cat-scent-marketing h4,
+   .product_cat-scent-marketing h5,
+   .product_cat-scent-marketing .jdgm-widget,
+   .product_cat-scent-marketing .inspired_by_text,
+   .product_cat-scent-marketing .top_notes_text,
+   .product_cat-best-sellers-diffusers h5 {
+      height: unset !important;
+   }
+}
+
+
+
+
+

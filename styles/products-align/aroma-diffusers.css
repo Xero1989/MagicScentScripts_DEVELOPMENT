@@ -1,0 +1,34 @@
+.qodef-woo-product-content h5 {
+	height: 5em;
+}
+
+/* .qodef-woo-product-content h5:nth-child(5),
+.qodef-woo-product-content h5:nth-child(6),
+.qodef-woo-product-content h5:nth-child(7),
+.qodef-woo-product-content h5:nth-child(8){
+      height: 5em !important; 
+   }*/
+
+.jdgm-widget {
+	height: 1em;
+	display: block !important
+}
+
+afterpay-placement {
+	margin: 0
+}
+
+.top_notes_text {
+	display: none;
+}
+
+
+/* 1 columns product */
+@media screen and (max-width: 680px) {
+
+	.qodef-woo-product-content h5,
+	.jdgm-widget,
+	.top_notes_text {
+		height: unset !important;
+	}
+}

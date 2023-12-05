@@ -1,0 +1,69 @@
+/* .qodef-woo-product-content h5:nth-child(5),
+.qodef-woo-product-content h5:nth-child(6),
+.qodef-woo-product-content h5:nth-child(7),
+.qodef-woo-product-content h5:nth-child(8){
+      height: 5em !important; 
+   }*/
+
+
+.qodef-woo-product-content h5 {
+  height: 2em !important;
+}
+
+.jdgm-widget {
+  height: 1em;
+  display: block !important;
+}
+
+afterpay-placement {
+  margin: 0;
+  float: unset !important;
+  width: 100% !important;
+  height: 4em !important;
+}
+
+.top_notes_text {
+  display: none;
+}
+
+.qodef-woo-product-list.qodef-item-layout--button-below
+  .qodef-woo-product-content
+  .button {
+  display: none !important;
+}
+
+.product_cat-aroma-diffusers .price ins span bdi {
+  color: red !important;
+}
+
+.product-meta {
+  height: 4.5em;
+  color: #353535;
+	font-family: "Work sans";
+}
+
+.product-meta-properties {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* 1 columns product */
+@media screen and (max-width: 680px) {
+  .qodef-woo-product-content h5,
+  .jdgm-widget,
+  .top_notes_text {
+    height: unset !important;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1201px) {
+  .product-meta {
+    height: 5em !important;
+  }
+}
+
+@media screen and (max-width: 315px) {
+  .product-meta {
+    height: 5em !important;
+  }
+}

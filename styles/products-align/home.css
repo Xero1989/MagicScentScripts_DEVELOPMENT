@@ -1,0 +1,36 @@
+   /* Home Slider */
+   .qodef-woo-product-list .product_cat-scent-marketing h5,
+   .qodef-woo-product-list .product_cat-scent-marketing h4 {
+   	height: 2.1em !important;
+   }
+
+   .qodef-woo-product-list .product_cat-scent-marketing .inspired_by_text {
+   	height: 3em !important;
+   }
+
+   /* .qodef-woo-product-list .product_cat-aroma-diffusers h4 {
+   	height: 4em !important;
+   } */
+
+
+
+
+     /* 3 columns product */
+   /* @media screen and (max-width: 1024px) {
+      .qodef-woo-product-list .product_cat-scent-marketing .inspired_by_text {
+         height: 4em !important;
+      }
+    } */
+
+    /* 1 columns product */
+       @media screen and (max-width: 680px) {
+         .qodef-woo-product-list .product_cat-scent-marketing h5,
+         .qodef-woo-product-list .product_cat-scent-marketing h4,
+         .qodef-woo-product-list .product_cat-scent-marketing .inspired_by_text {
+            height: unset !important;
+         }
+    }
+
+
+
+  

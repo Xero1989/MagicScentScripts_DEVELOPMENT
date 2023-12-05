@@ -1,0 +1,49 @@
+/* Scents page corrections */
+
+.qodef-woo-product-list.qodef-item-layout--button-below
+  li.product_cat-scent-marketing
+  .qodef-woo-product-content
+  .button {
+  display: none !important;
+}
+
+.qodef-woo-product-list h5 {
+  height: 3em;
+}
+
+.qodef-woo-product-list span.price {
+  margin: 0 !important;
+  margin-top: -4px !important;
+}
+
+div.scents_custom_properties {
+  font-size: 13px;
+  line-height: 21.2px;
+  height: 3.5em;
+  color: #353535;
+  font-family: "Work sans";
+}
+
+.qodef-woo-product-list .product_cat-scent-marketing .inspired_by_text {
+  font-size: 17px;
+  line-height: 28.22px;
+  font-weight: 400;
+  margin: 0.1em 0;
+  height: 3em !important;
+}
+
+div.top_notes_text {
+  padding-bottom: unset;
+}
+
+@media (min-width: 768px) and (max-width: 1442px) {
+  div.scents_custom_properties {
+    height: 4.7em !important;
+  }
+}
+
+@media screen and (max-width: 319) {
+  div.scents_custom_properties {
+    height: 4.7em !important;
+  }
+}

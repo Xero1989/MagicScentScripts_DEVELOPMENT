@@ -1,0 +1,32 @@
+h4,
+h5 {
+	height: 3em !important;
+}
+
+/* .jdgm-widget {
+	display: block !important;
+	height: 1em;
+} */
+
+.inspired_by_text {
+	height: 3em !important;
+}
+
+.top_notes_text {
+	height: 4em;
+}
+
+
+
+
+/* 1 columns product */
+@media screen and (max-width: 680px) {
+
+	h4,
+	h5,
+	.jdgm-widget,
+	.inspired_by_text,
+	.top_notes_text {
+		height: unset !important;
+	}
+}
