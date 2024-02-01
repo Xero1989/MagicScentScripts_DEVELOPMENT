@@ -1,0 +1,80 @@
+<button class="collapsible active" role="link">OUR PROMISE</button>
+
+<div class="content" style="max-height: 419px;">
+    <p>With more than 20 years of experience in the field of air-scenting, The Magic Scent helps thousands of businesses implement their scents into their branding strategies to produce more value and increase customer satisfaction. As a leader among scent marketing companies, we offer scent solutions for any space using an HVAC scent system suitable for homes, shopping malls, fitness centers and spas, hotels, restaurants and bars, healthcare centers, HOA management companies, and more.</p>
+  </div>
+
+  <button class="collapsible" role="link">COLD-AIR-DIFFUSION</button>
+
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="collapsible" role="link">IMPORTANT INFORMATION</button>
+
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <style>
+    .collapsible {
+      background-color: #ffffff;
+      color: #212121;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 14px;
+      font-weight: 600;
+      border-bottom: 1px solid #707070;
+    }
+    
+    .active, .collapsible:hover {
+      background-color: #e4e4e4;
+    }
+    
+    .collapsible:after {
+      content: '\2B9F';
+      color: #212121;
+      /* font-weight: bold; */
+      float: right;
+      margin-left: 5px;
+    }
+    
+    .active:after {
+      content: "\2B9D";
+    }
+    
+    .content {
+      padding: 0 18px;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+      color: #707070;
+      font-size: 14px;
+      font-weight: 400;
+      font-family: 'Work Sans', sans-serif;
+      /* background-color: #ec1515; */
+    }
+    </style>
+
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        } 
+      });
+    }
+    </script>
+
