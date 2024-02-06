@@ -168,6 +168,7 @@ div.qodef-quantity-buttons select {
 
 .div_payment_logos{
   text-align: left !important;
+  margin-bottom: 2em !important;
 }
 
 .wcsatt-options-prompt-radios{
@@ -191,8 +192,25 @@ div.qodef-quantity-buttons select {
 
 .div_money_back_guarantee{
   text-align:  left;
+  margin-
 }
 
+div.woocommerce-tabs{
+  display: none !important;
+}
+
+section.related.products{
+  display: none !important;
+}
+
+table.variations .rtwpvs-term{
+  padding: 0.5em 2em 2.3em 2em !important;
+  display: block !important;
+}
+
+.rtwpvs-term-span{
+  vertical-align: text-top !important;
+}
 
 
 @media screen and (max-width: 1024px) {
@@ -301,7 +319,7 @@ div.qodef-quantity-buttons select {
     justify-content: space-around;
   }
   table.variations .rtwpvs-term{
-    width: 41% !important;    
+    width: 45% !important;    
     padding: 0.5em 3em 2.3em 3em !important;
     display: inline-block !important;
     margin: 0.5em 0.5em !important;
@@ -315,10 +333,18 @@ div.qodef-quantity-buttons select {
   padding: 0 24vh;
 }
 
+.woocommerce-variation-price span.price{
+  margin: 0 0 1em !important;
+  margin-bottom: 1em !important;
+}
+
 
 }
 
 @media screen and (max-width: 600px) {
+  .summary{
+    padding: 0 !important;
+  }
   .wcsatt-options-product-dropdown{
     width: 100% !important;
   }

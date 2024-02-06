@@ -269,7 +269,7 @@ function action_woocommerce_after_shop_loop_item_title()
 
 
 add_filter('woocommerce_get_price_html', 'custom_price_html',10,2);
-add_filter( 'woocommerce_variable_price_html', 'custom_price_html', 10, 2 );
+// add_filter( 'woocommerce_variable_price_html', 'custom_price_html', 10, 2 );
 function custom_price_html($price,$product)
 {     
     
@@ -297,7 +297,7 @@ function custom_price_html($price,$product)
   //20% badge html
   $percent_badge_html = '<div style="margin-left: 1em; font-size: 0.6em; color: white; background: black; border-radius: 35px; padding: 0.2em 0.6em 0.2em 0.4em; display: inline-block; vertical-align: middle;line-height: 1em;"> - '.$sale_percentage.'%</div>';
   
-   $price .= $percent_badge_html;
+  $price .= $percent_badge_html;
 
     } 
 }
